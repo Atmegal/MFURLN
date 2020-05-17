@@ -4,7 +4,7 @@
 
 ##Introduction
 
-This implementation is based on [jwyang/faster-rcnn.pytorch].(https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0)
+This implementation is based on [jwyang/faster-rcnn.pytorch(https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0)].
 
 So you can reference this project to build you own code environmnt and compile the cuda dependencies.
 
