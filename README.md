@@ -10,9 +10,9 @@ So you can reference this project to build you own code environmnt and compile t
 
 ##Prerequisites
 
-  *Python 3.6
-  *Pytorch 1.0 
-  *CUDA9.0
+*Python 3.6
+*Pytorch 1.0 
+*CUDA9.0
 
 ## Train
 
