@@ -457,7 +457,7 @@ if __name__ == '__main__':
         print("loaded checkpoint %s" % (load_name))
 
     model_dict = fasterRCNN.state_dict()
-    args.load = './outputs/objects/vgg16/VRD/faster_rcnn_1_8_583.pth'
+    # args.load = './outputs/objects/vgg16/VRD/faster_rcnn_1_8_583.pth'
     load_model = torch.load(args.load)
     state_dict = {k: v for k, v in load_model['model'].items() if k in model_dict.keys()}
     model_dict.update(state_dict)
