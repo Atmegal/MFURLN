@@ -204,13 +204,13 @@ if __name__ == '__main__':
         args.set_cfgs = ['ANCHOR_SCALES', '[4, 8, 16, 32]',
                          'ANCHOR_RATIOS', '[0.5,1,2]', 'MAX_NUM_GT_BOXES', '50']
         num_class = 101
-        num_predicate = 71
+        num_predicate = 70
     elif args.dataset == "VG":
         args.imdb_name = "./process/vg_rela_roidb.npz"
         args.set_cfgs = ['ANCHOR_SCALES', '[4, 8, 16, 32]',
                          'ANCHOR_RATIOS', '[0.5,1,2]', 'MAX_NUM_GT_BOXES', '50']
         num_class = 151
-        num_predicate = 51
+        num_predicate = 50
 
     args.cfg_file = "cfgs/{}_ls.yml".format(args.net) if args.large_scale else "cfgs/{}.yml".format(args.net)
 
