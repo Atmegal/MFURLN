@@ -1,12 +1,15 @@
 # On Exploring Undetermined Relationships for Visual Relationship Detection
 
-Pytorch code for our CVPR 2019 paper ["On Exploring Undetermined Relationships for Visual Relationship Detection."](https://arxiv.org/pdf/1905.01595.pdf)
+## Introduction
+### Pytorch code for our CVPR 2019 paper ["On Exploring Undetermined Relationships for Visual Relationship Detection."](https://arxiv.org/pdf/1905.01595.pdf)
 
 This implementation is based on [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch/tree/pytorch-1.0).So you can reference this project to build you own code environmnt and compile the cuda dependencies.
 
+## Prerequisites
+* Python 3.6
+* Pytorch 1.0
+* CUDA 9.0
 
-## Introduction
-### pytporch
 ## Train
 ### Train relationship detection model:
 ```
